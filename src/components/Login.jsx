@@ -13,9 +13,6 @@ const Login = () => {
       if(Cookies.get('error')){
         alert(Cookies.get('error'));
         Cookies.remove('error');
-      } else if(Cookies.get('message')) {
-        alert(Cookies.get('message'));
-        Cookies.remove('message');
       }
     }, 500);
   },[])

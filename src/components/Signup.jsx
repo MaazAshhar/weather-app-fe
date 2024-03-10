@@ -17,7 +17,7 @@ const Signup = () => {
       alert(response.error)
     }
     else {
-      Cookies.set('message', 'Registered successfully');
+      alert('Registered successfully');
       navigate('/login');
     }
 
