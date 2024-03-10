@@ -1,0 +1,8 @@
+.Container{
+    min-height: 100vh;
+}
+
+.Card{
+    width: 20rem;
+    background: #f9f8f8;
+}
