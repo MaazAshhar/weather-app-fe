@@ -1,4 +1,4 @@
-/ = /login
-/login = /login
-/signup = /signup
-/weather = /weather
+/         /login
+/login    /login
+/signup   /signup
+/weather  /weather
